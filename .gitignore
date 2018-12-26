@@ -1,5 +1,5 @@
 node_modules
 .npm-debug.log
 .nyc_output
-./test/http.responses
-./test/quiqpay
+/test/http.responses
+/test/quiqpay
