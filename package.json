@@ -1,0 +1,32 @@
+{
+  "name": "quiqpay",
+  "version": "1.0.0",
+  "description": "A Node.JS client API wrapper for the QuiqPay API.",
+  "main": "lib/quiqpay.js",
+  "engines": {
+    "node": ">= v6.0.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive",
+    "coverage": "nyc npm test"
+  },
+  "keywords": [
+    "quiqpay",
+    "crypto",
+    "cryptocurrency",
+    "payment gateway",
+    "digital currency"
+  ],
+  "homepage": "https://quiqpay.io",
+  "author": "QuiqPay <support@quiqpay.io> (https://quiqpay.io)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nock": "^10.0.5",
+    "nyc": "^13.1.0"
+  }
+}
