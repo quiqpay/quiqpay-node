@@ -1,15 +1,12 @@
 # QuiqPay Node.js Library
 
-The QuiqPay Node library provides convenient access to the QuiqPay API from
-applications written in server-side JavaScript.
+The QuiqPay Node library provides convenient access to the QuiqPay API from applications written in server-side JavaScript.
 
 This library uses promises exclusively, thus all server calls that to our API will return a Promise.
 
-This library is a promised based,
-thus requires Node v6.0.0+
+This library is a promised based, thus requires Node v6.0.0+
 
-Please keep in mind that this package is for use with server-side Node that
-uses QuiqPay secret keys.
+Please keep in mind that this package is for use with server-side Node that uses QuiqPay secret keys.
 
 ## Requirements
 
