@@ -7,7 +7,7 @@
     "node": ">= v6.0.0"
   },
   "scripts": {
-    "test": "mocha --recursive",
+    "test": "mocha",
     "coverage": "nyc npm test"
   },
   "keywords": [
