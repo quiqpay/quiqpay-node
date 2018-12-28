@@ -9,3 +9,17 @@ install:
   - "npm install"
 script:
   - "npm test"
+notifications:
+  email:
+    recipients:
+    - travis-ci@quiqpay.io
+    on_success: change
+    on_failure: always
+after_success:
+  - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
+  - chmod +x send.sh
+  - ./send.sh success $DISCORD_WEBHOOK
+after_failure:
+  - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
+  - chmod +x send.sh
+  - ./send.sh failure $DISCORD_WEBHOOK
