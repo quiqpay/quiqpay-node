@@ -1,5 +1,11 @@
 # QuiqPay Node.js Library
 
+<p align="center">
+  <a href="https://travis-ci.org/quiqpay/quiqpay-node"><img src="https://img.shields.io/travis/quiqpay/quiqpay-node/master.svg" alt="Build Status"></a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" style="max-width:100%;">
+  <a href="https://discord.gg/FBFhUeh"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat"></a>
+</p>
+
 The QuiqPay Node library provides convenient access to the QuiqPay API from applications written in server-side JavaScript.
 
 This library uses promises exclusively, thus all server calls that to our API will return a Promise.
